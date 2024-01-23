@@ -11,6 +11,7 @@ const Button = (props: IButtonProps) => {
     'btn-xl': props.xl,
     'btn-base': !props.xl,
     'btn-primary': true,
+    'hover:bg-primary-600': true,
   });
 
   return (

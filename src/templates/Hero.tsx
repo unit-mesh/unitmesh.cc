@@ -25,7 +25,7 @@ const Hero = () => (
             <span className="text-primary-500">开源方案</span>
           </>
         }
-        description="Exploring NextGen Software Generative Architectural Paradigms with GenAI"
+        description="Unveiling Next-Gen Software: Pioneering Architectural Paradigms with GenAI"
         button={
           <Link href="https://raw.githubusercontent.com/unit-mesh/whitebook/master/2023-whitebook.pdf">
             <Button xl>下载《UnitMesh 白皮书》</Button>
