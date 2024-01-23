@@ -4,6 +4,17 @@ import { useRouter } from 'next/router';
 
 import { Button } from '@/button/Button';
 
+/**
+ * Interface for the props of the VerticalFeatureRow component.
+ *
+ * @property {string} title - The title of the vertical feature.
+ * @property {string} description - The description of the vertical feature.
+ * @property {string} image - The URL of the image associated with the vertical feature.
+ * @property {string} imageAlt - The alt text for the image.
+ * @property {boolean} [reverse] - Optional. Specifies whether the image should be displayed on the right side of the description.
+ * @property {string} [projectLink] - Optional. The URL of the project associated with the vertical feature.
+ * @property {string} [demoVideo] - Optional. The URL of the demo video for the vertical feature.
+ */
 type IVerticalFeatureRowProps = {
   title: string;
   description: string;
