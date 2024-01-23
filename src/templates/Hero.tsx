@@ -27,9 +27,21 @@ const Hero = () => (
         }
         description="Unveiling Next-Gen Software: Pioneering Architectural Paradigms with GenAI"
         button={
-          <Link href="https://raw.githubusercontent.com/unit-mesh/whitebook/master/2023-whitebook.pdf">
-            <Button xl>下载《UnitMesh 白皮书》</Button>
-          </Link>
+          <>
+            <Link
+              target="_blank"
+              href="https://raw.githubusercontent.com/unit-mesh/whitebook/master/2023-whitebook.pdf"
+            >
+              <Button xl>下载《UnitMesh 白皮书》</Button>
+            </Link>
+            <Link
+              target="_blank"
+              className={'px-2'}
+              href="https://github.com/unit-mesh/conf"
+            >
+              <Button xl>大会演讲材料下载</Button>
+            </Link>
+          </>
         }
       />
     </Section>
