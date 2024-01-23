@@ -7,7 +7,7 @@ type IVerticalFeatureRowProps = {
   image: string;
   imageAlt: string;
   reverse?: boolean;
-  demoLink?: string;
+  projectLink?: string;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
