@@ -40,7 +40,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
           )}
           {props.demoVideo && (
             <Link href={props.demoVideo} className={'px-2'} target={'_blank'}>
-              <Button className={'bg-grey-600'}>演示视频</Button>
+              <Button className={'hover:bg-grey-800'}>演示视频</Button>
             </Link>
           )}
         </div>

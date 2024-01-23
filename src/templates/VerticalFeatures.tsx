@@ -52,6 +52,7 @@ const VerticalFeatures = () => (
       image="/assets/images/co-mate.svg"
       imageAlt="UnitGen Architecture diagram"
       projectLink="https://github.com/unit-mesh/co-mate"
+      demoVideo="https://www.bilibili.com/video/BV1aT4y1b7mq/"
     />
   </Section>
 );
