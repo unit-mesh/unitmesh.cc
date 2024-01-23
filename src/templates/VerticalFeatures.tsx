@@ -20,7 +20,7 @@ const VerticalFeatures = () => (
       demoVideo="https://www.bilibili.com/video/BV1yV4y1i74c/"
     />
     <VerticalFeatureRow
-      title="AI 开发框架"
+      title="智能应用开发框架"
       description="Chocolate Factory 是一款开源的 LLM 应用开发框架，旨在帮助您轻松打造强大的软件开发 SDLC + LLM 生成助手。"
       image="/assets/images/chocolate-factory.svg"
       imageAlt="Chocolate Factory Architecture diagram"
@@ -29,7 +29,7 @@ const VerticalFeatures = () => (
       reverse
     />
     <VerticalFeatureRow
-      title="需求 AI 文本编程器"
+      title="AI 文本编程器"
       description="Studio B3 是一个为内容创作设计的 AI 编辑器，适用于各种格式，如博客、文章、用户故事等。"
       image="/assets/images/studio-b3.svg"
       projectLink="https://github.com/unit-mesh/b3"
@@ -37,7 +37,7 @@ const VerticalFeatures = () => (
       imageAlt="Studio B3"
     />
     <VerticalFeatureRow
-      title="研发模型微调"
+      title="模型微调数据框架"
       description="UnitGen 是一个用于生成微调代码的数据框架 —— 直接从你的代码库中生成微调数据：代码补全、测试生成、文档生成等。"
       image="/assets/images/unit-gen.svg"
       imageAlt="UnitGen Architecture diagram"
@@ -47,7 +47,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="架构师 AI 助手"
-      description="ArchGuard co-mate 旨在探索架构师助手的能力，包括本地语义分析、动态上下文收集API、架构规范检查等。"
+      description="ArchGuard Co-mate 旨在探索架构师助手的能力，包括本地语义分析、动态上下文收集API、架构规范检查等。"
       image="/assets/images/co-mate.svg"
       imageAlt="UnitGen Architecture diagram"
       projectLink="https://github.com/unit-mesh/co-mate"

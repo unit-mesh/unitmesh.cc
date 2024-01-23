@@ -29,6 +29,7 @@ module.exports = {
           950: '#0b231c',
         },
         gray: {
+          50: '#f9fafb',
           100: '#f7fafc',
           200: '#edf2f7',
           300: '#e2e8f0',
