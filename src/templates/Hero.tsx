@@ -12,9 +12,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/unit-mesh">
-            GitHub
-          </Link>
+          <Link href="https://github.com/unit-mesh">GitHub</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
