@@ -7,10 +7,10 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="探索新架构开发范式，构建下一代研发组织"
+      subtitle="立即使用 UnitMesh"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://github.com/unit-mesh">
           <Button>Get Started</Button>
         </Link>
       }
