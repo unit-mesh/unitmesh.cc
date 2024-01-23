@@ -13,8 +13,7 @@ const VerticalFeatures = () => (
     <Overview />
     <VerticalFeatureRow
       title="AI 辅助编程"
-      description="AutoDev 是一款基于 JetBrains IDE 的 AI 辅助编程插件。AutoDev 能够与您的需求管理系统（例如Jira、Trello、Github Issue 等）
-      直接对接。在 IDE 中，您只需简单点击，AutoDev 会根据您的需求自动为您生成代码。您所需做的，仅仅是对生成的代码进行质量检查。"
+      description="AutoDev 能够与您的需求管理系统直接对接，只需简单点击，就会根据您的需求自动为您生成代码。您所需做的，仅仅是对生成的代码进行质量检查。"
       image="/assets/images/autodev.svg"
       imageAlt="AutoDev Architecture"
       projectLink="https://github.com/unit-mesh/auto-dev"
