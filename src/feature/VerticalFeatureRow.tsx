@@ -11,6 +11,7 @@ type IVerticalFeatureRowProps = {
   imageAlt: string;
   reverse?: boolean;
   projectLink?: string;
+  demoVideo?: string;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
@@ -31,13 +32,18 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
       <div className="w-full sm:w-1/2 sm:px-6">
         <h3 className="text-3xl font-semibold text-gray-900">{props.title}</h3>
         <div className="mt-6 text-xl leading-9">{props.description}</div>
-        {props.projectLink && (
-          <div className="mt-8">
-            <Link href={props.projectLink}>
+        <div className="mt-8">
+          {props.projectLink && (
+            <Link href={props.projectLink} target={'_blank'}>
               <Button>查看项目</Button>
             </Link>
-          </div>
-        )}
+          )}
+          {props.demoVideo && (
+            <Link href={props.demoVideo} className={'px-2'} target={'_blank'}>
+              <Button className={'bg-grey-600'}>演示视频</Button>
+            </Link>
+          )}
+        </div>
       </div>
 
       <div className="w-full p-6 sm:w-1/2">
