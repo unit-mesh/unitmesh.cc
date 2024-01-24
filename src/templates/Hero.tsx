@@ -34,13 +34,6 @@ const Hero = () => (
             >
               <Button xl>下载《UnitMesh 白皮书》</Button>
             </Link>
-            {/* <Link */}
-            {/*  target="_blank" */}
-            {/*  className={'px-2 m-4'} */}
-            {/*  href="https://github.com/unit-mesh/conf" */}
-            {/* > */}
-            {/*  <Button xl>大会演讲材料下载</Button> */}
-            {/* </Link> */}
           </>
         }
       />
