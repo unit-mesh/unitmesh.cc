@@ -14,7 +14,7 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="AI 辅助编程"
       description="AutoDev 能够与您的需求管理系统直接对接，只需简单点击，就会根据您的需求自动为您生成代码。您所需做的，仅仅是对生成的代码进行质量检查。"
-      image="/assets/images/autodev.svg"
+      image="/assets/images/autodev-overview.svg"
       imageAlt="AutoDev Architecture"
       projectLink="https://github.com/unit-mesh/auto-dev"
       demoVideo="https://www.bilibili.com/video/BV1yV4y1i74c/"
@@ -52,6 +52,15 @@ const VerticalFeatures = () => (
       imageAlt="UnitGen Architecture diagram"
       projectLink="https://github.com/unit-mesh/co-mate"
       demoVideo="https://www.bilibili.com/video/BV1aT4y1b7mq/"
+    />
+    <VerticalFeatureRow
+      title="虚拟团队接口人"
+      description="CoUnit 是一个基于 LLM 的虚拟团队接口人（API），通过向量化文档、知识库、SDK和 API 等，结合 LLM 智能化团队间对接与协作。"
+      image="/assets/images/co-unit.svg"
+      imageAlt="CoUnit Architecture diagram"
+      projectLink="https://github.com/unit-mesh/co-unit"
+      demoVideo="/"
+      reverse
     />
   </Section>
 );
