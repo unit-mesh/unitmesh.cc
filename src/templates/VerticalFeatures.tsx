@@ -18,6 +18,7 @@ const VerticalFeatures = () => (
       imageAlt="AutoDev Architecture"
       projectLink="https://github.com/unit-mesh/auto-dev"
       demoVideo="https://www.bilibili.com/video/BV1yV4y1i74c/"
+      docLink="https://ide.unitmesh.cc"
     />
     <VerticalFeatureRow
       title="智能应用开发框架"
@@ -26,6 +27,7 @@ const VerticalFeatures = () => (
       imageAlt="Chocolate Factory Architecture diagram"
       projectLink="https://github.com/unit-mesh/chocolate-factory"
       demoVideo="https://www.bilibili.com/video/BV1T14y1C7p2/"
+      docLink="https://framework.unitmesh.cc"
       reverse
     />
     <VerticalFeatureRow
@@ -43,6 +45,7 @@ const VerticalFeatures = () => (
       imageAlt="UnitGen Architecture diagram"
       projectLink="https://github.com/unit-mesh/unit-gen"
       demoVideo="https://www.bilibili.com/video/BV1si4y1h7Vw/"
+      docLink="https://gen.unitmesh.cc"
       reverse
     />
     <VerticalFeatureRow

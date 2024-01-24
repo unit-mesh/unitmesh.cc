@@ -23,6 +23,7 @@ type IVerticalFeatureRowProps = {
   reverse?: boolean;
   projectLink?: string;
   demoVideo?: string;
+  docLink?: string;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
@@ -52,6 +53,11 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
           {props.demoVideo && (
             <Link href={props.demoVideo} className={'px-2'} target={'_blank'}>
               <Button className={'hover:bg-grey-800'}>演示视频</Button>
+            </Link>
+          )}
+          {props.docLink && (
+            <Link href={props.docLink} target={'_blank'}>
+              <Button className={'hover:bg-grey-800'}>阅读文档</Button>
             </Link>
           )}
         </div>
