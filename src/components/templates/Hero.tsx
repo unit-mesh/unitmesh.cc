@@ -3,8 +3,9 @@ import Link from 'next/link';
 import { Background } from '@/components/background/Background';
 import { Button } from '@/components/button/Button';
 import { HeroOneButton } from '@/components/hero/HeroOneButton';
-import { Section } from '../../layout/Section';
 import { NavbarTwoColumns } from '@/components/navigation/NavbarTwoColumns';
+
+import { Section } from '../../layout/Section';
 import { Logo } from './Logo';
 
 const Hero = () => (

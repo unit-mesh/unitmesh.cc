@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import { GitHubIcon } from '@/components/icon/GitHubIcon';
-
 import { Background } from '@/components/background/Background';
 import { CenteredFooter } from '@/components/footer/CenteredFooter';
+import { GitHubIcon } from '@/components/icon/GitHubIcon';
+
 import { Section } from '../../layout/Section';
 import { Logo } from './Logo';
 
