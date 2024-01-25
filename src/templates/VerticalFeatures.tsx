@@ -62,8 +62,14 @@ const VerticalFeatures = () => (
       image="/assets/images/co-unit.svg"
       imageAlt="CoUnit Architecture diagram"
       projectLink="https://github.com/unit-mesh/co-unit"
-      demoVideo="/"
       reverse
+    />
+    <VerticalFeatureRow
+      title="移动设备智能"
+      description="EdgeInfer 旨在资源受限的设备上运行小型 AI 模型（包括向量化和 Onnx 模型），如 Android、iOS 或 MCUs，实现高效的边缘智能，用于实时决策。"
+      image="/assets/images/edge-infer.svg"
+      imageAlt="EdgeInfer Architecture diagram"
+      projectLink="https://github.com/unit-mesh/edge-infer"
     />
   </Section>
 );
