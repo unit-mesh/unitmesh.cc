@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-import { GitHubIcon } from '@/icon/GitHubIcon';
+import { GitHubIcon } from '@/components/icon/GitHubIcon';
 
-import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
-import { Section } from '../layout/Section';
+import { Background } from '@/components/background/Background';
+import { CenteredFooter } from '@/components/footer/CenteredFooter';
+import { Section } from '../../layout/Section';
 import { Logo } from './Logo';
 
 const Footer = () => (
@@ -14,7 +14,7 @@ const Footer = () => (
         logo={<Logo />}
         iconList={
           <>
-            <Link href="/">
+            <Link href="/public">
               <GitHubIcon />
             </Link>
           </>

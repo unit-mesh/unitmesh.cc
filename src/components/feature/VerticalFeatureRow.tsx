@@ -2,7 +2,7 @@ import className from 'classnames';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { Button } from '@/button/Button';
+import { Button } from '@/components/button/Button';
 
 /**
  * Interface for the props of the VerticalFeatureRow component.
