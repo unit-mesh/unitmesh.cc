@@ -3,9 +3,8 @@ import Link from 'next/link';
 import { Background } from '@/components/background/Background';
 import { CenteredFooter } from '@/components/footer/CenteredFooter';
 import { GitHubIcon } from '@/components/icon/GitHubIcon';
-
-import { Section } from '../../layout/Section';
-import { Logo } from './Logo';
+import { Logo } from '@/components/templates/Logo';
+import { Section } from '@/layout/Section';
 
 const Footer = () => (
   <Background color="bg-gray-100">
