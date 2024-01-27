@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="179px" viewBox="0 0 404 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="294" y="139" width="109" height="40"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="109" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5">
+            <g id="Group-4" transform="translate(-0.000000, 0.000000)">
+                <rect id="Rectangle" fill="#6B9E78" x="0" y="0" width="197" height="40"></rect>
+                <text id="Comate-CLI" font-family="Monaco" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="51.4921875" y="26">Comate-CLI</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" fill="#6B9E78" x="0" y="50" width="404" height="79"></rect>
+            <text id="Comate-Core" font-family="Monaco" font-size="16" font-weight="normal" fill="#FFFFFF">
+                <tspan x="21.6914062" y="89">Comate-Core</tspan>
+            </text>
+            <g id="Group-3" transform="translate(207.000000, 0.000000)">
+                <rect id="Rectangle" fill="#6B9E78" x="-3.41060513e-13" y="0" width="197" height="40"></rect>
+                <text id="Comate-GUI" font-family="Monaco" font-size="16" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="51.4921875" y="26">Comate-GUI</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" fill="#011C32" x="0" y="139" width="167" height="40"></rect>
+            <g id="Group" transform="translate(279.000000, 71.000000)">
+                <rect id="Rectangle" fill="#013D4F" x="0" y="0.127340824" width="116" height="36"></rect>
+                <text id="Architect-(Model)" font-family="Monaco" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="26.0947266" y="15.1273408">Architect</tspan>
+                    <tspan x="29.6953125" y="30.1273408"> (Model)</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(153.000000, 71.000000)">
+                <rect id="Rectangle" fill="#013D4F" x="0" y="0.127340824" width="116" height="36"></rect>
+                <text id="Spec-Lang-(DSLs)" font-family="Monaco" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="26.0947266" y="15.1273408">Spec Lang</tspan>
+                    <tspan x="36.8964844" y="30.1273408">(DSLs)</tspan>
+                </text>
+            </g>
+            <use id="Rectangle" stroke="#011C32" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" stroke-dasharray="16,4" xlink:href="#path-1"></use>
+            <text id="Comate-Agent" font-family="Monaco" font-size="12" font-weight="normal" fill="#011C32">
+                <tspan x="305.792969" y="164">Comate Agent</tspan>
+            </text>
+            <rect id="Rectangle" fill="#013D4F" x="177" y="139" width="109" height="40"></rect>
+            <text id="Spec-Partitioner" font-family="Monaco" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="219.597656" y="156">Spec</tspan>
+                <tspan x="194.393555" y="171">Partitioner</tspan>
+            </text>
+            <text id="ArchGuard" font-family="Monaco" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="62.5947266" y="164">ArchGuard</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

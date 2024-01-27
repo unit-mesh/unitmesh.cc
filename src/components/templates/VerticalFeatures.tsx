@@ -52,7 +52,7 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="架构师 AI 助手"
       description="ArchGuard Co-mate 旨在探索架构师助手的能力，包括本地语义分析、动态上下文收集API、架构规范检查等。"
-      image="/assets/images/co-mate.svg"
+      image="/assets/images/co-mate-overview.svg"
       imageAlt="UnitGen Architecture diagram"
       projectLink="https://github.com/unit-mesh/co-mate"
       demoVideo="https://www.bilibili.com/video/BV1aT4y1b7mq/"
