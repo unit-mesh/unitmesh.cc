@@ -9,7 +9,9 @@ type INavbarProps = {
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div>
-      <Link href="https://github.com/unit-mesh" target={'_blank'}>{props.logo}</Link>
+      <Link href="https://github.com/unit-mesh" target={'_blank'}>
+        {props.logo}
+      </Link>
     </div>
 
     <nav>
