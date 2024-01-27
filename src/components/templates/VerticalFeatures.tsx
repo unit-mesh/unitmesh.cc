@@ -75,7 +75,7 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="微调模型 AutoDev Coder"
       description="AutoDevCoder 是基于 AutoDev 的指令与 UnitGen 微调数据框架，构建而来的微调方案下的模型。"
-      image="/assets/images/autodev.svg"
+      image="/assets/images/autodev-coder.svg"
       imageAlt="AutoDev Coder"
       projectLink="https://huggingface.co/unit-mesh"
       reverse
