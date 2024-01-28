@@ -22,18 +22,18 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'AI 赋能软件研发全流程\n'}
+            {'生成式 AI 赋能软件研发\n'}
             <span className="text-primary-500">开源方案</span>
           </>
         }
-        description="Unveiling Next-Gen Software: Pioneering Architectural Paradigms with GenAI"
+        description="Unveiling Next-Gen Software Enginneering: Pioneering Architectural Paradigms with GenAI"
         button={
           <>
             <Link
               target="_blank"
               href="https://raw.githubusercontent.com/unit-mesh/whitebook/master/2023-whitebook.pdf"
             >
-              <Button xl>下载《UnitMesh 白皮书》</Button>
+              <Button xl>下载《UnitMesh 技术白皮书》</Button>
             </Link>
           </>
         }
