@@ -13,9 +13,9 @@ const VerticalFeatures = () => (
   >
     <Overview />
     <VerticalFeatureRow
-      title="AI 辅助编程"
+      title="AI 编码助手"
       description="AutoDev 是一个高度自定义、上下文感知的 AI 编程插件。借助我们丰富的软件工程、静态代码分析经验，可以生成精准的代码、测
-      试用例、文档。你可以将 AutoDev 接入您的需求系统，以使用 AutoPage、AutoSQL、AutoCRUD 等 AI Agent。"
+      试用例、文档，并实现 Unit（单元）粒度的 AutoPage、AutoSQL 精准生成。你还可以将 AutoDev 接入您的需求系统，以使用 AutoCRUD 等 AI Agent。"
       image="/assets/images/autodev-overview.svg"
       imageAlt="AutoDev Architecture"
       projectLink="https://github.com/unit-mesh/auto-dev"
