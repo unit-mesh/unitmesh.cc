@@ -10,6 +10,8 @@ the UnitMesh landing page
 
 ### License
 
+based on: [Next-JS-Landing-Page-Starter-Template](https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
+
 Licensed under the MIT License, Copyright © 2024
 
 See [LICENSE](LICENSE) for more information.
