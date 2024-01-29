@@ -36,7 +36,7 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="AI 文本编程器"
       description="Studio B3 是一个为内容创作设计的 AI 文本编辑器（React），适用于各种文本编程场景，如测试用例、博客、文章、用户故事等。"
-      image="/assets/images/studio-b3.svg"
+      image="/assets/images/b3-architecture.svg"
       projectLink="https://github.com/unit-mesh/b3"
       demoVideo="https://www.bilibili.com/video/BV1E64y1j7hJ/"
       imageAlt="Studio B3"
