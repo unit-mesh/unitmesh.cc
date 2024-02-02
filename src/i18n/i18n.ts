@@ -16,8 +16,8 @@ const resources = {
       // 构建下一代软件生成式应用开发范式
       'Build NG AI4SE': '构建下一代软件生成式应用开发范式',
       // AI 编码助手
-      'AI-Assistant Development': 'AI 编码助手',
-    },
+      'AI-Assistant Development': 'AI 编码助手'
+    }
   },
   'en-US': {
     translation: {
@@ -26,9 +26,9 @@ const resources = {
       'Download White Paper': 'Download White Paper of UnitMesh Technology',
       'E2E open source AI4SDLC': 'End-to-end open source AI4SDLC',
       'Build NG AI4SE': 'Build next-gen AI4SDLC',
-      'AI-Assistant Development': 'AI-Assistant Development',
-    },
-  },
+      'AI-Assistant Development': 'AI-Assistant Development'
+    }
+  }
 };
 
 i18n
@@ -44,13 +44,13 @@ i18n
       // if you're using a language detector, do not define the lng option
 
       interpolation: {
-        escapeValue: false, // react already safes from xss
-      },
+        escapeValue: false // react already safes from xss
+      }
     },
     (err) => {
       if (err) return console.log('something went wrong loading', err);
       console.log('i18n loaded successfully');
-    },
+    }
   );
 
 export default i18n;
