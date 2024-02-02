@@ -48,7 +48,9 @@ i18n
       },
     },
     (err) => {
+      // eslint-disable-next-line no-console
       if (err) return console.log('something went wrong loading', err);
+      // eslint-disable-next-line no-console
       console.log('i18n loaded successfully');
       return null;
     },
