@@ -1,6 +1,5 @@
 import { VerticalFeatureRow } from '@/components/feature/VerticalFeatureRow';
-
-import { Section } from '../../layout/Section';
+import { Section } from '@/layout/Section';
 
 function Overview() {
   return <img width={'100%'} src={`/overview.svg`} alt="overview" />;
