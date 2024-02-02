@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useTranslation } from "react-i18next";
 
 import { Background } from '@/components/background/Background';
 import { Button } from '@/components/button/Button';
@@ -8,10 +9,12 @@ import { Section } from '@/layout/Section';
 
 import { Logo } from './Logo';
 
-const Hero = () => (
-  <Background color="">
+const Hero = function () {
+  const { t } = useTranslation();
+
+  return <Background color="">
     <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={<Logo xl/>}>
         <li>
           <Link href="https://github.com/unit-mesh">GitHub</Link>
         </li>
@@ -22,8 +25,8 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'生成式 AI 赋能软件研发\n'}
-            <span className="text-primary-500">开源方案</span>
+            <>{ t('AI4SDLC') + '\n' }</>
+            <span className="text-primary-500">{t('OS Solution')}</span>
           </>
         }
         description="Unveiling Next-Gen Software Enginneering: Pioneering Architectural Paradigms with GenAI"
@@ -33,13 +36,13 @@ const Hero = () => (
               target="_blank"
               href="https://raw.githubusercontent.com/unit-mesh/whitebook/master/2023-whitebook.pdf"
             >
-              <Button xl>下载《UnitMesh 技术白皮书》</Button>
+              <Button xl>{t('Download White Paper')}</Button>
             </Link>
           </>
         }
       />
     </Section>
-  </Background>
-);
+  </Background>;
+};
 
 export { Hero };
