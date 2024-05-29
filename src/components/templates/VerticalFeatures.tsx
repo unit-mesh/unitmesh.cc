@@ -17,9 +17,9 @@ const VerticalFeatures = () => {
     >
       <Overview />
       <VerticalFeatureRow
-        title="AI 编码助手"
+        title="智能编码助手"
         description="AutoDev 是一个高度自定义、上下文感知的 AI 编程插件。借助我们丰富的软件工程、静态代码分析经验，可以生成精准的代码、测
-        试用例、文档，并实现 Unit（单元）粒度的 AutoPage、AutoSQL 精准生成。你还可以将 AutoDev 接入您的需求系统，以使用 AutoCRUD 等 AI Agent。"
+        试用例、文档，并实现 Unit（单元）粒度的 AutoPage、AutoSQL 精准生成。你还可以将接入您的需求系统，以使用 AutoCRUD 等 AI Agent。"
         image="/assets/images/autodev-overview.svg"
         imageAlt="AutoDev Architecture"
         projectLink="https://github.com/unit-mesh/auto-dev"
@@ -27,7 +27,7 @@ const VerticalFeatures = () => {
         docLink="https://ide.unitmesh.cc"
       />
       <VerticalFeatureRow
-        title="智能应用开发框架"
+        title="LLM 应用开发框架"
         description="Chocolate Factory 是一个面向软件研发场景的 LLM 应用开发框架，旨在帮助您轻松打造强大的软件开发 SDLC + LLM 生成助手。其内置
         了大量软件研发场景所需要的模块，如静态代码分析、版本管理、代码语义化切分等。"
         image="/assets/images/chocolate-factory.svg"
